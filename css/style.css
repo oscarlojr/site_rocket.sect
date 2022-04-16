@@ -1,7 +1,9 @@
 body {
     margin: 0;
     background: #2F2E41;
+    
     color: #ffff;
+    font-family: 'JetBrains Mono', monospace;    
 }
 
 header {
@@ -20,3 +22,49 @@ ul {
     align-items: center;
     padding: 0;
 }
+
+h1 {
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+}
+
+main {
+    width: 1092px;
+    padding: 0px;
+    margin: 0 auto 157px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
+    color: #C2C2C2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+span {
+    color: #00BFA6;
+}
+
+footer {
+    width: 568px;
+    margin: 0 auto 23px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer p a {
+    text-decoration: none;
+    line-height: 28px;
+}
+
+#padlock {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+} 
