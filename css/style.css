@@ -23,10 +23,18 @@ ul {
     padding: 0;
 }
 
+
+
+nav ul li {
+    font-size: 14px;
+    line-height: 28px;
+}
+
 h1 {
     font-size: 36px;
     line-height: 40px;
     text-align: center;
+    margin: 0 auto 59px;
 }
 
 main {
@@ -56,11 +64,18 @@ footer {
 
 footer p {
     font-size: 14px;
+    text-align: center;
+    line-height: 28px;
 }
 
 footer p a {
     text-decoration: none;
     line-height: 28px;
+}
+
+.line {
+    border: 1px solid #00BFA6;
+    margin: 0 auto 27px;
 }
 
 #padlock {
