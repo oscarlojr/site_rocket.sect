@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    background: #2F2E41;
+    color: #ffff;
+}
+
+header {
+    width: 1083px;
+    height: 30px;
+    margin: 71px auto 101px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 64px;
+    list-style: none;
+    align-items: center;
+    padding: 0;
+}
