@@ -1,7 +1,6 @@
 body {
     margin: 0;
-    background: #2F2E41;
-    
+    background: #2F2E41;    
     color: #ffff;
     font-family: 'JetBrains Mono', monospace;    
 }
@@ -23,11 +22,14 @@ ul {
     padding: 0;
 }
 
-
-
 nav ul li {
     font-size: 14px;
     line-height: 28px;
+}
+
+a {
+    color: #ffff;
+    text-decoration: none;
 }
 
 h1 {
@@ -69,7 +71,6 @@ footer p {
 }
 
 footer p a {
-    text-decoration: none;
     line-height: 28px;
 }
 
@@ -80,6 +81,6 @@ footer p a {
 
 #padlock {
     position: fixed;
-    bottom: 0;
-    left: 0;
+    bottom: 20px;
+    left: 20px;
 } 
